@@ -29,6 +29,16 @@ const router = createRouter({
       path: '/layouts/multi-column/three',
       component: () => import('./../layouts/multi-column/Three.float')
     },
+    // 圣杯布局
+    {
+      path: '/layouts/grail',
+      component: () => import('./../layouts/grail/Grail')
+    },
+    // 双飞翼布局
+    {
+      path: '/layouts/double-wings',
+      component: () => import('./../layouts/double-wings/DoubleWings')
+    },
     {
       path: '/*',
       component: C404

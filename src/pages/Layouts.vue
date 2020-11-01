@@ -5,6 +5,9 @@
     >
     <router-link to="/layouts/fullscreen/flex">全屏布局-弹性盒子</router-link>
     <router-link to="/layouts/multi-column/two">多列布局-两列</router-link>
+    <router-link to="/layouts/multi-column/three">多列布局-三列</router-link>
+    <router-link to="/layouts/grail">圣杯布局</router-link>
+    <router-link to="/layouts/double-wings">双飞翼布局</router-link>
   </div>
 </template>
 
