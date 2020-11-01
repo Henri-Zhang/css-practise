@@ -11,6 +11,7 @@ const router = createRouter({
       path: '/layouts',
       component: Layouts
     },
+    // 全屏布局
     {
       path: '/layouts/fullscreen/absolute',
       component: () => import('./../layouts/fullscreen/Absolute')
@@ -18,6 +19,11 @@ const router = createRouter({
     {
       path: '/layouts/fullscreen/flex',
       component: () => import('./../layouts/fullscreen/Flex')
+    },
+    // 多列布局
+    {
+      path: '/layouts/multi-column/two',
+      component: () => import('./../layouts/multi-column/Two.flex')
     },
     {
       path: '/*',
