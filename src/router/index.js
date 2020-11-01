@@ -39,6 +39,11 @@ const router = createRouter({
       path: '/layouts/double-wings',
       component: () => import('./../layouts/double-wings/DoubleWings')
     },
+    // 均分布局
+    {
+      path: '/layouts/average',
+      component: () => import('./../layouts/average/Average.flex')
+    },
     {
       path: '/*',
       component: C404

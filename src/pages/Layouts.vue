@@ -8,6 +8,7 @@
     <router-link to="/layouts/multi-column/three">多列布局-三列</router-link>
     <router-link to="/layouts/grail">圣杯布局</router-link>
     <router-link to="/layouts/double-wings">双飞翼布局</router-link>
+    <router-link to="/layouts/average">均分布局</router-link>
   </div>
 </template>
 
