@@ -26,6 +26,10 @@ const router = createRouter({
       component: () => import('./../layouts/multi-column/Two.flex')
     },
     {
+      path: '/layouts/multi-column/three',
+      component: () => import('./../layouts/multi-column/Three.float')
+    },
+    {
       path: '/*',
       component: C404
     }
