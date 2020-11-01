@@ -7,7 +7,18 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     { path: '/', component: Home },
-    { path: '/layouts', component: Layouts },
+    {
+      path: '/layouts',
+      component: Layouts
+    },
+    {
+      path: '/layouts/fullscreen/absolute',
+      component: () => import('./../layouts/fullscreen/Absolute')
+    },
+    {
+      path: '/layouts/fullscreen/flex',
+      component: () => import('./../layouts/fullscreen/Flex')
+    },
     {
       path: '/*',
       component: C404
