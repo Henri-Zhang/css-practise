@@ -10,6 +10,7 @@
     <router-link to="/layouts/double-wings">双飞翼布局</router-link>
     <router-link to="/layouts/average">均分布局</router-link>
     <router-link to="/layouts/center-horizontally">水平居中</router-link>
+    <router-link to="/layouts/center-vertically">垂直居中</router-link>
   </div>
 </template>
 

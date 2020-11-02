@@ -42,5 +42,10 @@ export default [
   {
     path: '/layouts/center-horizontally',
     component: () => import('./../layouts/center-horizontally/index')
+  },
+  // 垂直居中布局
+  {
+    path: '/layouts/center-vertically',
+    component: () => import('./../layouts/center-vertically/index')
   }
 ];
