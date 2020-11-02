@@ -10,6 +10,10 @@ export default {
 </script>
 
 <style>
+body {
+  margin: 0;
+}
+
 #henri {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
