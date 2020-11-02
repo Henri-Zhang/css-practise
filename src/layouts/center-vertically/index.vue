@@ -35,11 +35,11 @@
   }
 
   .block-element {
+    height: auto;
     background-color: orange;
 
     .block {
       display: block;
-      width: 100px; // 定宽需要指定为块级元素
       background-color: #2f2;
     }
   }
@@ -83,8 +83,7 @@
 
     .all {
       position: absolute;
-      top: 0;
-      margin-top: 50%;
+      top: 50%;
       width: 160px;
       transform: translateY(-50%);
       background-color: #6f0;
